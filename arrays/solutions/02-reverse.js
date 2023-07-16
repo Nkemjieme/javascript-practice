@@ -23,3 +23,12 @@ export const reverse = (array) => {
  * @returns {Array}
  */
 export const reverse2 = (array) => array.map((el, id, givenArr) => givenArr[givenArr.length - id - 1]);
+// THIS IS THE UPDATED SOLUTION:
+// function reverseArray(inputArray) {
+//     var reversedArray = inputArray.reverse();
+//     return reversedArray;
+// }
+// var myArray = [2, 3, 4, 5];
+// reversedArray = reverseArray(myArray)
+// console.log(reversedArray);
+
