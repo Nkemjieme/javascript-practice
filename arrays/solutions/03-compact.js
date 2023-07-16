@@ -6,3 +6,12 @@
  * @returns {Array}
  */
 export const compact = (array) => array.filter((el) => el);
+// HERE IS THE SOLUTION:
+// const compact = (array) => {
+//     compactedArray = array.filter((element) => {
+//         return element !== undefined && element !== null && element !== 0 && element !== false && element !== ""
+//     });
+//     return compactedArray
+// }
+// const data = [0, 1, '', 2, 5, null, undefined, false,]
+// console.log(compact(data));
